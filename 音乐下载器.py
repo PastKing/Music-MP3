@@ -121,7 +121,7 @@ class DownloadWorker(QThread):
                     file.write(response.content)
 
 def make_request(keyword):
-    url = "http://so.weimp3.com/"
+    url = "https://music.haom.ren/"
     headers = {"X-Requested-With": "XMLHttpRequest"}
     form_data = {"input": keyword, "filter": "name", "type": "netease", "page": "1"}
 
